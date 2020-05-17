@@ -1,0 +1,10 @@
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema //資料庫綱要 
+const todoSchema = new Schema({
+    name : {
+        type : String ,
+        required : true 
+    }
+})
+
+module.exports = mongoose.model('Todo' , todoSchema )
