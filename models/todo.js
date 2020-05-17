@@ -7,4 +7,4 @@ const todoSchema = new Schema({
     }
 })
 
-module.exports = mongoose.model('Todo' , todoSchema )
+module.exports = mongoose.model('Todo' , todoSchema ) // 輸出schema , 這份schema叫做 todo
